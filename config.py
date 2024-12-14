@@ -45,7 +45,6 @@ LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1001636534856"))
 
 # File Caption Information
 CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", f"{script.CAPTION}")
-@@ -70,7 +70,7 @@ def is_enabled(value, default):
 WEBSITE_URL = environ.get("WEBSITE_URL", "") # For More Information Check Video On Yt - @Tech_VJ
 
 # File Stream Config
