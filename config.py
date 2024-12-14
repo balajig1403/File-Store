@@ -25,11 +25,11 @@ BOT_USERNAME = environ.get("BOT_USERNAME", "") # without @
 CLONE_MODE = bool(environ.get('CLONE_MODE', False)) # Set True or False
 # If Clone Mode Is True Then Fill All Required Variable, If False Then Don't Fill.
 CLONE_DB_URI = environ.get("CLONE_DB_URI", "")
-CDB_NAME = environ.get("CDB_NAME", "")
+CDB_NAME = environ.get("CDB_NAME", "cfilestoredb")
 
 # Database Information
 DB_URI = environ.get("DB_URI", "")
-DB_NAME = environ.get("DB_NAME", "File-Store-DB")
+DB_NAME = environ.get("DB_NAME", "filestoredb")
 
 
 # Auto Delete Information
