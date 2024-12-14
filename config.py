@@ -16,7 +16,7 @@ API_ID = int(environ.get("API_ID", "11112771"))
 API_HASH = environ.get("API_HASH", "4606a7fdabe4eb7f6c0b1ce77f6372ce")
 BOT_TOKEN = environ.get("BOT_TOKEN", "7932633515:AAGmfR8TPTscogWmYLMUPlxq-XkmJ4PzI6Y")
 
-PICS = (environ.get('PICS', 'https://github.com/balajig1403/File-Store/blob/65dec968ef48ee4a2388b4ead4afad5e73df8adc/plugins/image.png')).split() # Bot Start Picture
+PICS = (environ.get('PICS', 'https://github.com/balajig1403/File-Store/blob/main/plugins/image.png')).split() # Bot Start Picture
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1303617136').split()]
 BOT_USERNAME = environ.get("BOT_USERNAME", "Balaji_Store_bot") # without @
 PORT = environ.get("PORT", "8080")
